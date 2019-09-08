@@ -1,10 +1,12 @@
-package com.bobo.common.utils;
+package com.yuanshuai.common.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
 import org.junit.Test;
+
+import com.yuanshuai.common.utils.DateUtil;
 
 public class DateUtilTest {
 	

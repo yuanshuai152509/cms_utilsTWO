@@ -1,4 +1,4 @@
-package com.bobo.common.utils;
+package com.yuanshuai.common.utils;
 
 import static org.junit.Assert.*;
 
@@ -6,6 +6,10 @@ import java.util.Calendar;
 import java.util.Date;
 
 import org.junit.Test;
+
+import com.yuanshuai.common.utils.DateUtil;
+import com.yuanshuai.common.utils.RandomUtil;
+import com.yuanshuai.common.utils.StringUtil;
 
 public class StringUtilTest {
 

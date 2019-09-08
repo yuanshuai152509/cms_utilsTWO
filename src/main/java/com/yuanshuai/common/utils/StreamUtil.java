@@ -1,4 +1,4 @@
-package com.bobo.common.utils;
+package com.yuanshuai.common.utils;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

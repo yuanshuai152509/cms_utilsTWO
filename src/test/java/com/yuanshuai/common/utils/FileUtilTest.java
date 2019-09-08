@@ -1,10 +1,12 @@
-package com.bobo.common.utils;
+package com.yuanshuai.common.utils;
 
 import static org.junit.Assert.*;
 
 import java.io.File;
 
 import org.junit.Test;
+
+import com.yuanshuai.common.utils.FileUtil;
 
 public class FileUtilTest {
 

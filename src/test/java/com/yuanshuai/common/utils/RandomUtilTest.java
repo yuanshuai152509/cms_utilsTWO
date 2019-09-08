@@ -1,8 +1,10 @@
-package com.bobo.common.utils;
+package com.yuanshuai.common.utils;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import com.yuanshuai.common.utils.RandomUtil;
 
 public class RandomUtilTest {
 
