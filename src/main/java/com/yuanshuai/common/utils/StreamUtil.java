@@ -1,11 +1,15 @@
 package com.yuanshuai.common.utils;
 
+import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
 public class StreamUtil {
 
@@ -60,7 +64,19 @@ public class StreamUtil {
 			e.printStackTrace();
 		}
 		return null;
-		
-		
 	}
+	public static List<String> readText(InputStream src){
+		BufferedReader reader = new BufferedReader(new InputStreamReader(src));
+		List<String> list = new ArrayList<>();
+		String lineText = null;
+		try {
+			while((lineText = reader.readLine())!=null) {
+				list.add(lineText);
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return list;
+	}	
+		
 }

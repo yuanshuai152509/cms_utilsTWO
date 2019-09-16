@@ -71,5 +71,14 @@ public class DateUtil {
 		c.add(Calendar.SECOND, -1);
 		return c.getTime();
 	}
+	public static Date getDateByMonthSub(Date date,Integer month) {
+		Calendar c = Calendar.getInstance();
+		//用传入的日期初始化日历类
+		c.setTime(date);
+		//减去传入月份
+		c.add(Calendar.MONTH, -month);
+		return c.getTime();
+	}
+	
 
 }
